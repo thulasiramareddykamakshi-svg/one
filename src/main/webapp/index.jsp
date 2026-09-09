@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>NexusShop — Modern E‑Commerce</title>
+    <title>NexusShop — QA Test Build</title>
 
     <!-- Fonts & Icons -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
@@ -1185,7 +1185,7 @@
         <!-- HERO -->
         <section class="hero" aria-label="Hero banner">
             <div class="container">
-                <div class="badge"><i class="fas fa-sparkles"></i> New Collection 2026</div>
+                <div class="badge"><i class="fas fa-sparkles"></i> QA Test Collection 2026</div>
                 <h1>Discover Premium <br>Essentials</h1>
                 <p>Curated fashion, tech & accessories with free shipping on your first order. Limited-time deals await.</p>
                 <div class="actions">
@@ -1243,7 +1243,7 @@
                         <div>
                             <span class="price-big">$999 <span class="old">$1,199</span></span>
                         </div>
-                        <p class="stock">Only <strong>12</strong> items left — hurry!</p>
+                        <p class="stock">Only <strong>10</strong> items left — QA test stock!</p>
                         <div class="timer-grid" id="dealTimer">
                             <div class="timer-box">
                                 <div class="num" id="dealDays">0</div>
@@ -1287,7 +1287,7 @@
                 <div class="newsletter-wrap">
                     <div class="text">
                         <h3 id="news-title">Stay in the Loop</h3>
-                        <p>Get exclusive offers, early access & new arrivals</p>
+                        <p>QA test: Get exclusive offers, early access & new arrivals</p>
                     </div>
                     <form id="newsletterForm" onsubmit="return false;">
                         <input type="email" id="newsletterEmail" placeholder="Enter your email" aria-label="Email" required />
@@ -1371,7 +1371,7 @@
             { id: 2, title: 'MacBook Pro 14"', price: 1999, rating: 4, reviews: 86, badge: '',
                 img: 'https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=600&q=80',
                 category: 'Laptops' },
-            { id: 3, title: 'Apple Watch Series 8', price: 349, oldPrice: 399, rating: 5, reviews: 214, badge: 'Sale',
+            { id: 3, title: 'Apple Watch Series 8', price: 359, oldPrice: 399, rating: 5, reviews: 214, badge: 'Sale',
                 img: 'https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?auto=format&fit=crop&w=600&q=80',
                 category: 'Accessories' },
             { id: 4, title: 'Nike Air Max 270', price: 150, rating: 4, reviews: 53, badge: '',
